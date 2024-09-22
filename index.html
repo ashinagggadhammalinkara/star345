@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My first HTML page</title>
+  <style>
+    li {
+      color: green;
+    } 
+  </style>
+  <!-- this is the internal Css and Element Seletor -->
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <h1>Welcome to My Webside</h1>
+  <p>This is my first HTML page</p>
+  <p>Think you</p>
+  <h1>This is Heading</h1>
+  <h2>This is h2</h2>
+  <a href="https://www.google.com">visit google</a>
+  <img src="#" width="300px" height="300px" />
+  <!--
+  strong/Bold
+  Emphasized
+  Italic
+  Line Break
+  Horizontal Line
+  -->
+  <p>This is Lorem mmbb
+    <storng>DDhi</storng><b>Lorem ipsum</b>hello
+    <i>my fa kung</i>welcome to my class<br>netx page
+    <hr>hello
+  </p>
+  <a href="#">Go to text Formatting</a>
+  <!--
+   Unordered and Ordered Lists
+  -->
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+  <ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ol>
+  <!--  Table (Header, Row, Data)   -->
+  <table>
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+    </tr>
+    <tr>
+      <td>Data 1</td>
+      <td>Data 2</td>
+    </tr>
+    <tr>
+      <td>Data 11</td>
+      <td>Data 22</td>
+    </tr>
+    <tr>
+      <td>Data 111</td>
+      <td>Data 222</td>
+    </tr>
+  </table>
+  <!--
+  Form
+  Methods (post, GET)
+  Input Types (Text, Email, Password)
+-->
+  <form action="https://www.w3schools.com/action_page.php" method="post"></form>
+  <lable for="username">username</lable>
+  <input type="text" name="username" />
+  <lable for="email">Email</lable>
+  <input type="email" name="email" id="email" />
+  <label for="message">Message</label>
+  <textarea name="message" id="message"></textarea>
+  <button type="submit">Submit</button> <!--This is the error-->
+
+  <!--
+    Image
+    Embedded Video (iframe)
+    Video
+    Audio
+  -->
+  <img src="#" alt="this is MMBB hero" width="222px" heigth="333px" />
+  <video src="#" type="video/mp4" controls>
+  </video>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/-JVBDtaHQaA?si=FGonBMlQNBOwrChw"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <!--iframe errer-->
+
+  <audio width="44px" heigth="55px" controls>
+    <sourec src="#" type="audio/mpeg"></sourec>
+  </audio>
+
+  <!--
+    Clarity and Structure, Accessibility
+
+    Header
+    Nav
+    Main
+    Section
+    Article
+    Footer
+  -->
+
+  <herder>
+    <h1>header 1</h1>
+  </herder>
+  <nav>
+    <ul>
+      <li>Home</li>
+      <li>about</li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+      <h1>how are you</h1>
+    </section>
+    <articla>
+      <h2>article 1</h2>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </articla>
+  </main>
+  <footer>
+    <p>copyright@2024</p>
+  </footer>
+  <!--the HTML end (day1,day2)-->
+
+  <!--CSS Lesson (day3 start->)-->
+  <p style="color:blue">this is p tag</p>
+  <h1 class="add">Hello Word</h1>
+  <p id="egg">this is the paragraph.</p>
+  <p class="box1">this is the box 1</p>
+  <p class="box2">this is the box 2</p>
+  <div>Block element</div>
+  <span>Inline element</span>
+  <div class="flex-container">
+    <div class="Item">Item 1</div>
+    <div class="Item">Item 2</div>
+    <div class="Item">Item 3</div>
+  </div>
+
+  <!--CSS Lesson (day4 start->)-->
+  <div class="grid-container">
+    <div class="grid-Item">Item 1</div>
+    <div class="grid-Item">Item 2</div>
+    <div class="grid-Item">Item 3</div>
+    <div class="grid-Item">Item 4</div>
+    <div class="grid-Item">Item 5</div>
+    <div class="grid-Item">Item 6</div>
+  </div>
+  <!--CSS Lesson end-->
+
+  <h2>Hello My Angel</h2>
+  <button onclick="showMessage()">click me</button>
+  <script>
+    function showMessage() {
+      alert("Button Clicked!");
+    } 
+  </script>
+  <!-- this is the internal js (day-5)-->
+</body>
+
+</html>
